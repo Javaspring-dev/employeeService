@@ -18,13 +18,6 @@ public class Employee {
     private String email;
     private String designation;
 
-    public Employee(String email, String designation, String firstName, String lastName, Long id) {
-        this.email = email;
-        this.designation = designation;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.id = id;
-    }
 
     public Long getId() {
         return id;
